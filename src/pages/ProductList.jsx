@@ -21,14 +21,14 @@ const ProductList = () => {
 
 
   return (
-    <div className="container mt-3">
+    <div className="container mt-3 product-list">
       <div className="bg-light d-sm-block d-md-flex">
         {products.length === 0 && <p className="text-center text-danger w-100">Loading....</p>}
 
         <>
           <article id="product-panel" className="col-md-5">
             {products.length > 0 ? (
-              products.map((product) => (
+              products?.map((product) => (
                 <>
                 <ProductCard key={product.id} product={product} getData={getData} />
                 </>

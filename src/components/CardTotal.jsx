@@ -15,8 +15,8 @@ const CardTotal = ({products}) => {
 
   
   return (
-    <table className="table w-100">
-      <tbody>
+    <table className="table w-100 card-total">
+      <tbody >
         <tr className="text-end">
           <th className="text-start">Subtotal</th>
           <td>
@@ -32,7 +32,7 @@ const CardTotal = ({products}) => {
         <tr className="text-end">
           <th className="text-start">Shipping</th>
           <td>
-            $<span className="shipping">{shipping}</span>
+            $<span className="shipping">{Number(subTotal) > 100000 || Number(subTotal) === 0 ? "0" : 25}</span>
           </td>
         </tr>
         <tr className="text-end">

@@ -156,3 +156,15 @@ body {
   font-family: 'Pet Shop', sans-serif;
   font-size: 2rem;
 }
+
+.product-list {
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(240,244,243,0) 100%);
+}
+
+.product-card {
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(199,212,204,0) 100%);
+}
+
+.card-total {
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(199,212,208,0.15730042016806722) 100%);
+}
