@@ -1,6 +1,6 @@
 React, React-Bootstrap, Axios, HTML ve CSS kullanılarak, ürün ekleyebileceğimiz, silebileceğimiz ve miktarını değiştirebileceğimiz bir petshop alışveriş sitesi ön prototipidir.
-
-Live: https://gy-petshop.vercel.app/productlist
+Live: 
+https://gy-petshop.vercel.app/productlist
 
 
 https://github.com/YildizGokhan/petshop/assets/144238207/c4f2e46b-5156-43c4-9da3-fbeaf4a93a40
