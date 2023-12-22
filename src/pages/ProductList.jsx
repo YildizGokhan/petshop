@@ -4,7 +4,6 @@ import CardTotal from "../components/CardTotal";
 import axios from "axios";
 
 
-
 const ProductList = () => {
   const [products, setProducts] = useState([])
 
@@ -23,7 +22,7 @@ const ProductList = () => {
 
   return (
     <div className="container mt-3">
-      <div className={"bg-light d-sm-block d-md-flex"}>
+      <div className="bg-light d-sm-block d-md-flex">
         {products.length === 0 && <p className="text-center text-danger w-100">Loading....</p>}
 
         <>
