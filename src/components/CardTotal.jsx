@@ -12,10 +12,8 @@ const CardTotal = ({products}) => {
   const total = (Number(subTotal) + Number(subTotal) * taxRate + shipping).toFixed(2);
   const taxRateText = (taxRate*Number(subTotal)).toFixed(2)
 
-
-  
   return (
-    <table className="table w-100 card-total">
+    <table className="table w-100 card-total table-secondary">
       <tbody >
         <tr className="text-end">
           <th className="text-start">Subtotal</th>

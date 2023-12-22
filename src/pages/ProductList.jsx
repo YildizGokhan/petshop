@@ -22,7 +22,7 @@ const ProductList = () => {
 
   return (
     <div className="container mt-3 product-list">
-      <div className="bg-light d-sm-block d-md-flex">
+      <div className="bg-light d-sm-block d-md-flex add-product">
         {products.length === 0 && <p className="text-center text-danger w-100">Loading....</p>}
 
         <>

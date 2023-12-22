@@ -39,7 +39,7 @@ const ProductCard = ({ product, getData }) => {
 
   return (
 
-    <div className="card shadow-lg mb-3 product-card" key={id}>
+    <div className="card shadow-lg mb-2 product-card" key={id}>
       <div className="row g-1">
         <div className="col-md-5">
           <img

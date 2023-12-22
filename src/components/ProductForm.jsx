@@ -48,7 +48,7 @@ const ProductForm = ({ getData, products }) => {
 
 
   return (
-    <article id="add-product" className="mb-4 mt-4">
+    <article id="add-product" className="mb-4 mt-4 add-product">
       <h1 className="text-center">Product</h1>
       <form className="p-2" onSubmit={handleSubmit}>
         <div className="mb-3">

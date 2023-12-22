@@ -1,11 +1,11 @@
-
-
 @import url('https://fonts.cdnfonts.com/css/pet-shop');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background: #f1f2b5;
   background: -webkit-linear-gradient(to right, #135058, #f1f2b5);
@@ -13,34 +13,39 @@ body {
 }
 
 .main {
-  
+
   background-image: url(https://i.hizliresim.com/e1frpu7.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
-  background-color: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(70,58,15,1) 100%);
-  
+  background-color: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(70, 58, 15, 1) 100%);
+
 
   min-height: calc(100vh - 60px);
   position: relative;
-  > div {
+
+  >div {
     text-align: center;
     color: rgba(71, 46, 46, 0.705);
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, 0%);
+
     .main-buttons {
       margin-top: 1rem;
     }
   }
 }
+
 .nav-link {
   color: white !important;
+
   &:hover {
     color: red !important;
   }
 }
+
 .active {
   text-decoration: underline !important;
 }
@@ -93,17 +98,17 @@ body {
   list-style: none;
   justify-content: center;
   padding: 0;
-  
+
 }
 
 .social-list li {
   padding: 10px;
   color: #135058;
   font-size: 19px;
-  
+
 }
 
-.social-list li{
+.social-list li {
   color: purple;
 }
 
@@ -113,6 +118,7 @@ body {
   color: #135058;
   height: 40px;
 }
+
 .main-buttons button:nth-child(1):hover {
   border: 1px solid #135058 !important;
   color: #fff;
@@ -130,6 +136,7 @@ body {
   border: 1px solid #135058 !important;
   height: 40px;
   background-color: #135058;
+
   & a {
     color: #fff !important;
   }
@@ -151,20 +158,25 @@ body {
 
 
 
-.navbars{
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(60,70,15,0.5102415966386555) 100%);
+.navbars {
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(60, 70, 15, 0.5102415966386555) 100%);
   font-family: 'Pet Shop', sans-serif;
   font-size: 2rem;
 }
 
 .product-list {
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(240,244,243,0) 100%);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(240, 244, 243, 0) 100%);
 }
 
 .product-card {
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(199,212,204,0) 100%);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(199, 212, 204, 0) 100%);
 }
 
-.card-total {
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(199,212,208,0.15730042016806722) 100%);
+.all-bg {
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(199, 212, 208, 0.15730042016806722) 100%);
 }
+
+.add-product {
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(199, 212, 207, 0.4822303921568627) 100%);
+}
+
