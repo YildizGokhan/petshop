@@ -25,7 +25,7 @@ const ProductCard = ({ product, getData }) => {
     } else {
       deleteProduct();
       getData();
-    }
+    } 
   }
   
   const plusProduct = async () => {
