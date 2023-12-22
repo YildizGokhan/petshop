@@ -2,7 +2,9 @@ React, React-Bootstrap, Axios, HTML ve CSS kullanılarak, ürün ekleyebileceği
 
 
 
-https://github.com/YildizGokhan/petshop/assets/144238207/88ab1a8f-0cf8-401b-95c7-56264180ccc7
+
+https://github.com/YildizGokhan/petshop/assets/144238207/c4f2e46b-5156-43c4-9da3-fbeaf4a93a40
+
 
 
 
