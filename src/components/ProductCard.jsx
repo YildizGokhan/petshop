@@ -14,9 +14,10 @@ const ProductCard = ({ product, getData }) => {
   }
 
   const minusProduct = async () => {
-    if (quantity > 1) {
+    const newQuantity = parseInt(quantity, 10); 
+    if (newQuantity > 1) {
       try {
-        await axios.put(`https://658056a36ae0629a3f54f229.mockapi.io/products/${id}`, { ...product, quantity: quantity - Number(1) })
+        await axios.put(`https://658056a36ae0629a3f54f229.mockapi.io/products/${id}`, { ...product, quantity: newQuantity - 1 })
         getData();
       } catch (error) {
         alert("Something went wrong: " + error.message)
@@ -26,10 +27,11 @@ const ProductCard = ({ product, getData }) => {
       getData();
     }
   }
-
+  
   const plusProduct = async () => {
+    const newQuantity = parseInt(quantity, 10); 
     try {
-      await axios.put(`https://658056a36ae0629a3f54f229.mockapi.io/products/${id}`, { ...product, quantity: quantity + Number(1) })
+      await axios.put(`https://658056a36ae0629a3f54f229.mockapi.io/products/${id}`, { ...product, quantity: newQuantity + 1 })
       getData();
     } catch (error) {
       alert("Something went wrong: " + error.message)
